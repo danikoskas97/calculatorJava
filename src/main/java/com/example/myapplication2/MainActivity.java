@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 crunchifyEditText.setText(null);
 
                 if (crunchifyX2 == true){
-                    crunchifyEditText.setText(Math.pow(mValueOne, mValueOne)+ "");
+                    crunchifyEditText.setText(mValueOne*mValueOne+ "");
                     crunchifyX2 = false;
                 }
 
